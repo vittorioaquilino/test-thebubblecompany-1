@@ -1,0 +1,1 @@
+1) Devi realizzare un componente di tipo TABS utilizzando HTML, CSS e JavaScript Vanilla. In pratica attraverso questo componente l'utente cliccando su una Tab deve potersi spostare dall'una all'altra visualizzando il contenuto in esso. Che sia testo, immagini o altro, su questo sei libero di scegliere.
