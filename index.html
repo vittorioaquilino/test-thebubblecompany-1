@@ -9,8 +9,44 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-    
+    <header>
+        <div class="container">
+            <h1>Tabs</h1>
+        </div>
+    </header>
+    <main>
+        <!-- contenitore -->
+        <div class="container">
+            <!-- tabs -->
+            <div class="tabs">
+                <button class="tabs-button" onclick="showTab(event, 'content-1')">Vittorio</button>
+                <button class="tabs-button" onclick="showTab(event, 'content-2')">Luca</button>
+                <button class="tabs-button" onclick="showTab(event, 'content-3')">Giovanni</button>
+            </div>
+            <!-- contenuti -->
+            <div class="tabs-content" id="content-1">
+                <h3>Vittorio</h3>
+                <p>Professione: Jr Full Stack Web Developer</p>
+                <p>Età: 20</p>
+                <p>Residenza: Foggia</p>
+                <p>Contatti: 333 1234567</p>
+            </div>
+            <div class="tabs-content" id="content-2">
+                <h3>Luca</h3>
+                <p>Professione: Carabiniere</p>
+                <p>Età: 25</p>
+                <p>Residenza: Roma</p>
+                <p>Contatti: 333 1234567</p>
+            </div>
+            <div class="tabs-content" id="content-3">
+                <h3>Giovanni</h3>
+                <p>Professione: Impiegato bancario</p>
+                <p>Età: 45</p>
+                <p>Residenza: Milano</p>
+                <p>Contatti: 333 1234567</p>
+            </div>
+        </div>
+    </main>
     <!-- js -->
     <script src="js/script.js"></script>
 </body>
